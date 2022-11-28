@@ -1,0 +1,32 @@
+{
+    "name": "rush-archive-plugin",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/askchapter/rush-plugins.git"
+    },
+    "bin": {
+        "rush-archive": "./bin/rush-archive"
+    },
+    "scripts": {
+        "_phase:build": "heft build --clean",
+        "_phase:test": "heft test --no-build",
+        "build": "heft build --clean",
+        "test": "heft test --clean"
+    },
+    "dependencies": {
+        "@rushstack/node-core-library": "^3.49.0",
+        "@rushstack/package-deps-hash": "^3.2.13",
+        "@rushstack/rush-sdk": "^5.63.0",
+        "inquirer": "^9.1.4"
+    },
+    "devDependencies": {
+        "@rushstack/eslint-config": "^3.1.1",
+        "@rushstack/heft": "^0.48.8",
+        "@rushstack/heft-node-rig": "^1.11.8",
+        "@types/heft-jest": "^1.0.3",
+        "@types/inquirer": "^9.0.3",
+        "@types/node": "^16.18.3",
+        "eslint": "^8.28.0"
+    }
+}

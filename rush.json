@@ -11,5 +11,11 @@
         "defaultBranch": "main",
         "defaultRemote": "origin"
     },
-    "projects": []
+    "projects": [
+        {
+            "packageName": "rush-archive-plugin",
+            "projectFolder": "packages/rush-archive-plugin",
+            "shouldPublish": true
+        }
+    ]
 }
