@@ -1,12 +1,12 @@
 {
-    "name": "rush-archive-plugin",
-    "version": "0.1.2",
+    "name": "rush-monorepo-lint-plugin",
+    "version": "0.1.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/askchapter/rush-plugins.git"
+        "url": "https://github.com/askchapter/oss.git"
     },
     "bin": {
-        "rush-archive": "./bin/rush-archive"
+        "rush-monorepo-lint": "./bin/rush-monorepo-lint"
     },
     "scripts": {
         "_phase:build": "heft build --clean",
@@ -16,18 +16,14 @@
     },
     "dependencies": {
         "@rushstack/node-core-library": "^3.53.2",
-        "@rushstack/package-deps-hash": "^3.2.63",
         "@rushstack/rush-sdk": "^5.85.1",
-        "@rushstack/ts-command-line": "^4.13.1",
-        "inquirer": "^8.2.5"
+        "@rushstack/ts-command-line": "^4.13.1"
     },
     "devDependencies": {
         "@rushstack/eslint-config": "^3.1.1",
         "@rushstack/heft": "^0.48.8",
         "@rushstack/heft-node-rig": "^1.11.8",
-        "@rushstack/stream-collator": "^4.0.215",
         "@types/heft-jest": "^1.0.3",
-        "@types/inquirer": "^8.2.5",
         "@types/node": "^16.18.3",
         "eslint": "^8.28.0"
     }
