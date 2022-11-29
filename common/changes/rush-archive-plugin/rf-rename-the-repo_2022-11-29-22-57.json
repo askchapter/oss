@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "rush-archive-plugin",
+      "comment": "rename the repo",
+      "type": "patch"
+    }
+  ],
+  "packageName": "rush-archive-plugin"
+}

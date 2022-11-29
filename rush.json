@@ -5,21 +5,21 @@
     "nodeSupportedVersionRange": ">=16.13.0 <17.0.0",
     "ensureConsistentVersions": true,
     "projectFolderMinDepth": 2,
-    "projectFolderMaxDepth": 2,
+    "projectFolderMaxDepth": 3,
     "repository": {
-        "url": "https://github.com/askchapter/rush-plugins",
+        "url": "https://github.com/askchapter/oss",
         "defaultBranch": "main",
         "defaultRemote": "origin"
     },
     "projects": [
         {
             "packageName": "rush-archive-plugin",
-            "projectFolder": "packages/rush-archive-plugin",
+            "projectFolder": "packages/rush-plugins/rush-archive-plugin",
             "shouldPublish": true
         },
         {
             "packageName": "rush-monorepo-lint-plugin",
-            "projectFolder": "packages/rush-monorepo-lint-plugin"
+            "projectFolder": "packages/rush-plugins/rush-monorepo-lint-plugin"
         }
     ]
 }
