@@ -1,0 +1,28 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/command-line.schema.json",
+    "commands": [
+        {
+            "name": "archive",
+            "commandKind": "global",
+            "summary": "Maintain a log of archived projects for future discovery.",
+            "shellCommand": "rush-archive"
+        }
+    ],
+    "parameters": [
+        {
+            "longName": "--package-name",
+            "description": "Package name of the project to archive",
+            "parameterKind": "string",
+            "argumentName": "PACKAGE_NAME",
+            "associatedCommands": ["archive"],
+            "required": false
+        },
+        {
+            "longName": "--regenerate",
+            "description": "Regenerate the archive log Markdown file",
+            "parameterKind": "flag",
+            "associatedCommands": ["archive"],
+            "required": false
+        }
+    ]
+}
