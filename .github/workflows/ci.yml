@@ -8,6 +8,7 @@ on:
             - main
 jobs:
     test:
+        name: Test
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
@@ -20,7 +21,7 @@ jobs:
                   node-version: 16
             - name: Install dependencies
               run: node ./common/scripts/install-run-rush.js install
-            - name: Build
+            - name: Test
               run: node ./common/scripts/install-run-rush.js test --verbose
     verify:
         name: Verify
