@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "rush-archive-plugin",
+      "comment": "add documentation",
+      "type": "none"
+    }
+  ],
+  "packageName": "rush-archive-plugin"
+}

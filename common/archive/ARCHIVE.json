@@ -1,0 +1,11 @@
+[
+    {
+        "packageName": "dummy-package",
+        "relativePath": "packages/dummy-package",
+        "finalVersion": "1.0.0",
+        "user": "Robert Fidler",
+        "commitHash": "b1e8f965e0ff51b22efd0ccf514e8e8c30525495",
+        "timestamp": "Tue, 29 Nov 2022 17:42:49 GMT",
+        "comments": "This was a dummy package set up to demonstrate the archive log."
+    }
+]
