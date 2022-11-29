@@ -1,0 +1,17 @@
+{
+  "name": "rush-archive-plugin",
+  "entries": [
+    {
+      "version": "0.1.1",
+      "tag": "rush-archive-plugin_v0.1.1",
+      "date": "Tue, 29 Nov 2022 01:11:53 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "create initial release"
+          }
+        ]
+      }
+    }
+  ]
+}
