@@ -5,8 +5,24 @@
             "name": "archive",
             "commandKind": "global",
             "summary": "Maintain a log of archived projects for future discovery.",
-            "shellCommand": "rush-archive",
-            "safeForSimultaneousRushProcesses": true // TODO: can we remove this?
+            "shellCommand": "rush-archive"
+        }
+    ],
+    "parameters": [
+        {
+            "longName": "--package-name",
+            "description": "Package name of the project to archive",
+            "parameterKind": "string",
+            "argumentName": "PACKAGE_NAME",
+            "associatedCommands": ["archive"],
+            "required": false
+        },
+        {
+            "longName": "--regenerate",
+            "description": "Regenerate the archive log Markdown file",
+            "parameterKind": "flag",
+            "associatedCommands": ["archive"],
+            "required": false
         }
     ]
 }
