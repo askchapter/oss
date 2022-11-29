@@ -20,10 +20,6 @@
         {
             "packageName": "rush-monorepo-lint-plugin",
             "projectFolder": "packages/rush-monorepo-lint-plugin"
-        },
-        {
-            "packageName": "dummy-package",
-            "projectFolder": "packages/dummy-package"
         }
     ]
 }
