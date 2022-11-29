@@ -16,6 +16,10 @@
             "packageName": "rush-archive-plugin",
             "projectFolder": "packages/rush-archive-plugin",
             "shouldPublish": true
+        },
+        {
+            "packageName": "rush-monorepo-lint-plugin",
+            "projectFolder": "packages/rush-monorepo-lint-plugin"
         }
     ]
 }

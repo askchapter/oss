@@ -4,19 +4,9 @@
         {
             "name": "archive",
             "commandKind": "global",
-            "summary": "Archives the project to a tar file",
-            "shellCommand": "rush-project-archiver archive",
-            "safeForSimultaneousRushProcesses": true
-        }
-    ],
-    "parameters": [
-        {
-            "parameterKind": "string",
-            "description": "The name of the package",
-            "longName": "--package-name",
-            "argumentName": "PACKAGE_NAME",
-            "associatedCommands": ["archive-project", "unarchive-project"],
-            "required": true
+            "summary": "Maintain a log of archived projects for future discovery.",
+            "shellCommand": "rush-archive",
+            "safeForSimultaneousRushProcesses": true // TODO: can we remove this?
         }
     ]
 }
