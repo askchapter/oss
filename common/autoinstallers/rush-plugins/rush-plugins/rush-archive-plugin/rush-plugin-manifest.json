@@ -1,0 +1,11 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush-plugin-manifest.schema.json",
+    "plugins": [
+        {
+            "pluginName": "rush-archive-plugin",
+            "description": "Rush plugin for archiving projects",
+            "commandLineJsonFilePath": "./command-line.json",
+            "associatedCommands": ["archive"]
+        }
+    ]
+}
