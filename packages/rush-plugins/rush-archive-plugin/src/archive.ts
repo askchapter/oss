@@ -40,6 +40,6 @@ export function archive({ packageName, comments }: ArchiveOpts): void {
     saveArchiveLog(rushConfiguration, [archiveLogEntry, ...archiveLog]);
 
     console.log(
-        `🗄️ Added archive entry for ${packageName}.  You should proceed to delete its code, remove it from \`rush.json\`, and remove any other references to it.  Then commit your changes and submit a PR.`
+        `🗄️  Added archive entry for ${packageName}.  You should proceed to delete its code, remove it from \`rush.json\`, and remove any other references to it.  Then commit your changes and submit a PR.`
     );
 }
