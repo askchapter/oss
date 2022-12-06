@@ -19,7 +19,9 @@ export function archive({ packageName, comments }: ArchiveOpts): void {
         throw new Error(
             `${packageName} cannot be archived because it is depended on by ${
                 project.consumingProjects.size
-            } projects:\n${Array.from(project.consumingProjects.keys()).join("\n")}`
+            } projects:\n${Array.from(project.consumingProjects.keys())
+                .map((project) => project.packageName)
+                .join("\n")}`
         );
     }
 
