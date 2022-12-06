@@ -2,6 +2,29 @@
   "name": "rush-archive-plugin",
   "entries": [
     {
+      "version": "0.1.3",
+      "tag": "rush-archive-plugin_v0.1.3",
+      "date": "Tue, 06 Dec 2022 21:57:01 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "add documentation"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "fix error output"
+          },
+          {
+            "comment": "rename the repo"
+          },
+          {
+            "comment": "small console output fix"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.1.2",
       "tag": "rush-archive-plugin_v0.1.2",
       "date": "Tue, 29 Nov 2022 01:45:53 GMT",
