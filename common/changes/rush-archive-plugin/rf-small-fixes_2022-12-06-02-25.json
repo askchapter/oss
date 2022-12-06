@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "rush-archive-plugin",
+      "comment": "small console output fix",
+      "type": "patch"
+    }
+  ],
+  "packageName": "rush-archive-plugin"
+}
